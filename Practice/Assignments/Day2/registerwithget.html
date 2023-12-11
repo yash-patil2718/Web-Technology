@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form action="" method="get">
+    <fieldset><b><u>Registration Form</u></b>
+    <br>
+    <br>
+    <label>Enter First Name</label>
+    <input type="text" name="fff" id="fname"><br>
+    <br>
+    <label>Enter Last Name</label>
+    <input type="text" id="lname" name="lll"><br>
+    <br>
+    <label>Date of Birth</label>
+    <input type="date" id="dob" name="dob"><br>
+    <br>
+    <label>Enter Username</label>
+    <input type="text" id="uname" required min="5" max="15" name="user">
+    <br>
+    <br>
+    <label>Enter Password</label>
+    <input type="password" id="pass" minlength="8" maxlength="10" required name="pw">
+    <br>
+    <br>
+    <label>Address</label>
+    <!-- <input type="textarea" id="add" row="5" col="10"> -->
+    <textarea id="add" rows="5" cols="30"></textarea name="add">
+    <br>
+    <br>
+    <label>State</label>
+    <select>
+        <option>Select One State</option>
+        <option>Maharashtra</option>
+        <option>Madhya Pradesh</option>
+        <option>Chattisgarh</option>
+        <option>Andhra Pradesh</option>
+    </select>
+    <br>
+    <br>
+    <label>Education</label>
+    <br>
+    SSC<input type="checkbox" id="ch1">
+    HSC<input type="checkbox" id="ch2">
+    Graduation<input type="checkbox" id="ch3">
+    Post-Graduation<input type="checkbox" id="ch4">
+    <br>
+    <br>
+    Male<input type="radio" name="radio1">
+    Female<input type="radio" name="radio1">
+    TransGender<input type="radio" name="radio1">
+    <br>
+    <br>
+    <button>Submit</button>
+    </fieldset>
+    </form>
+</body>
+</html>
