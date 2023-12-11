@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Month And Weekday</title>
+    <script>
+        function changeMonth(){
+        let month = parseInt(document.getElementById("cm").value)
+        switch(month){
+            case 1:
+                document.getElementById("pm").innerHTML = "<b>  Jan </b>"
+                break
+            case 2:
+                document.getElementById("pm").innerHTML = "<b>  Feb </b>"
+                break
+            case 3:
+                document.getElementById("pm").innerHTML = "<b>  Mar </b"
+                break
+
+            case 4:
+                document.getElementById("pm").innerHTML = "<b>  Apr </b>"
+                break
+
+            case 5:
+                document.getElementById("pm").innerHTML ="<b>  May </b"
+                break
+
+            case 6:
+                document.getElementById("pm").innerHTML = "<b>  Jun </b>"
+                break
+
+            case 7:
+                document.getElementById("pm").innerHTML = "<b>  Jul </b>"
+                break
+
+            case 8:
+                document.getElementById("pm").innerHTML = "<b>  Aug </b>"
+                break
+
+            case 9:
+                document.getElementById("pm").innerHTML = "<b>  Sep </b>"
+                break
+
+            case 10:
+                document.getElementById("pm").innerHTML = "<b>  Oct </b>"
+                break
+
+            case 11:
+                document.getElementById("pm").innerHTML = "<b>  Nov </b>"
+                break
+
+            case 12:
+                document.getElementById("pm").innerHTML = "<b>  Dec </b>"
+                break
+        }
+        }
+        function changeDay(){
+        let date = parseInt(document.getElementById("cd").value)
+        switch(date){
+            case 1:
+                document.getElementById("pd").innerHTML = "<b> Monday </b>"
+                break
+
+            case 2:
+                document.getElementById("pd").innerHTML = "<b> Tuesday </b>"
+                break
+
+            case 3:
+                document.getElementById("pd").innerHTML = "<b> Wednesda </b>"
+                break
+
+            case 4:
+                document.getElementById("pd").innerHTML = "<b> Thursday</b>"
+                break
+
+            case 5:
+                document.getElementById("pd").innerHTML = "<b> Friday </b>"
+                break
+
+            case 6:
+                document.getElementById("pd").innerHTML = "<b> Saturday</b>"
+                break
+
+            case 7:
+                document.getElementById("pd").innerHTML = "<b> Sunday </b>"
+                break
+            }
+        }
+    </script>
+</head>
+<body>
+    <label>Month</label>
+    <select id="cm" onchange="changeMonth()">
+        <option >Select Month</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+    </select>
+    <label>Day</label>
+    <select id="cd" onchange="changeDay()">
+        <option >Select Day</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+    </select>
+    <p id="pm"></p>
+    <p id="pd"></p>
+</body>
+</html>

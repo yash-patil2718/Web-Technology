@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TitlePrefix</title>
+    <script>
+        function formatName(g){
+        let gc
+        let fname = document.getElementById("firstname").value
+        let lname = document.getElementById("secondname").value
+        let titleFirst = fname.substring(0,1).toUpperCase()+fname.substring(1,fname.length)
+        let titleLast = lname.substring(0,1).toUpperCase()+ lname.substring(1,lname.length)
+        if(g=='Male'){
+            c = 1
+        }
+        else{
+            c=2
+        }
+
+        switch(c){
+            case 1:
+                document.getElementById("formattedName").innerHTML="<b><u>Mr "+ titleLast + " " + titleFirst+"</u></b>"
+                break;
+            case 2:
+                document.getElementById("formattedName").innerHTML="<b><u>Madam "+ titleLast + " " + titleFirst+"</u></b>"
+                break;
+        }
+        }
+</script>
+</head>
+<body>
+    <label>Enter FirstName : </label>
+    <input type="text" id="firstname">
+    <br>
+    <br>
+    <label>Enter Second Name : </label>
+    <input type="text" id="secondname">
+    <br>
+    Male<input type="radio" name="radio1" onclick="formatName('Male')">
+    Female<input type="radio" name="radio1" onclick="formatName('Female')">
+    <br>
+    <p id="formattedName"></p>
+
+</body>
+</html>

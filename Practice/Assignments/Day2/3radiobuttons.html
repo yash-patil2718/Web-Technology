@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changeCapital(){
+            let su = document.getElementById("text1").value
+            let supper = su.toUpperCase()
+            document.getElementById("formattedAnswer").innerHTML = supper
+        }
+        function changeSmall(){
+            let ss = document.getElementById("text1").value
+            let ssmall = ss.toLowerCase()
+            document.getElementById("formattedAnswer").innerHTML = ssmall
+        }
+        function changetitle(){
+            let st = document.getElementById("text1").value
+            let stitle = st.substring(0,1).toUpperCase()+ st.substring(1,st.last)
+            document.getElementById("formattedAnswer").innerHTML = stitle
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="text1">
+    <br>
+    Capital<input type="radio" name="radio1" onclick="changeCapital()">
+    Smallcase<input type="radio" name="radio1" onclick="changeSmall()">
+    Titlecase<input type="radio" name="radio1" onclick="changeTitle()">
+    <p id="formattedAnswer"></p>
+</body>
+</html>

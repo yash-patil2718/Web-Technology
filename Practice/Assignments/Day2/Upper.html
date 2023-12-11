@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upper</title>
+    <script>
+        function convertUpper(){
+        let su = document.getElementById("text1").value
+        let supper = su.toUpperCase()
+        document.getElementById("formattedText").innerHTML = supper
+        }
+    </script>
+</head>
+<body>
+    <label>Enter your text</label>
+    <br>
+    <input type="text" id="text1">
+    <br>
+    <input type="button" value="convert" onclick="convertUpper()">
+    <p id="formattedText"></p>
+</body>
+</html>
