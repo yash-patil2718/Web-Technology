@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation 2</title>
+    <script>
+        function checkString(){
+            let s = document.getElementById("str").value
+            let slen = s.length
+            let output
+            if(slen==10){
+                output = "String is Valid"
+            }
+            else{
+                output = "String is not valid"
+            }
+            document.getElementById("returnOutput").innerHTML = output
+        }
+    </script>
+</head>
+<body>
+    <h3>Form validation 2</h3>
+    <label>
+        Enter your String
+    </label>
+    <input type="text" id="str" name="string">
+    <br>
+    <input type="button" value="check" onclick="checkString()">
+    <br>
+    <p id="returnOutput"></p>
+</body>
+</html>
