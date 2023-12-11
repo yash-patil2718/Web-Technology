@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurrencyConverter</title>
+    <script>
+        function convertCurrency(){
+            let num = document.getElementById("inputnum").value
+            let fromcurr = document.getElementById("select1").value
+            let tocurr = document.getElementById("select2").value
+            let con
+            if (fromcurr=='Dollar') {
+                con = {Rupee:82, Euro:72, Pound:99}
+            }
+            else if(fromcurr=='Rupee'){
+                con = {Dollar:0.012, Euro:0.011, Pound:0.0096}
+            }
+            else if(fromcurr=='Euro'){
+                con = {Dollar:1.08, Rupee:89.79, Pound:0.86}
+            }
+            else if(fromcurr=='Pound'){
+                con = {Dollar:1.25, Rupee:104.60, Euro:1.17}
+            }
+            let result = num*con[tocurr]
+            document.getElementById("convertedOutput").innerHTML = result
+        }
+    </script>
+</head>
+<body>
+    <h3>Currency Converter</h3>
+    <br>
+    <input type="number" id="inputnum">
+    <select id="select1" >
+        <option>Select From</option>
+        <option>Dollar</option>
+        <option>Rupee</option>
+        <option>Euro</option>
+        <option>Pound</option>
+    </select>
+    <select id="select2" >
+        <option>Select To</option>
+        <option>Dollar</option>
+        <option>Rupee</option>
+        <option>Euro</option>
+        <option>Pound</option>
+    </select>
+    <p id="convertedOutput"></p>
+    <br>
+    <input type="button" value="Convert" id="bt1" onclick="convertCurrency()">
+</body>
+</html>
