@@ -1,0 +1,70 @@
+Name :- Yash Sanjay Patil
+Email :- yashpatil.gsm@gmail.com
+              yashpatil.patil2001@gmail.com
+Mobile :- 7744926706
+                9766396301
+Skype id :- live:.cid.ce9847ecfa421f18
+Current Add:- Navyangan F-305, Next to Ghotawade phata, Mulshi paud road, pirangut kasaramboli, apposite joshi snacs, kasaramboli, pune 412115
+Permanant Address :- Plot no 6, S.no:- 470/3, Patbandhare Abhiyanta Society, Mahabal Area, Jalgaon -425002
+Nationality :- Indian
+Caste :- Leve Gujar
+
+Academic Details:-
+SSC 
+School - Modern English Medium School, Gangapur
+Board - Maharashtra Board
+Marks Obtained - 456
+Total Marks - 500
+Percentage - 91.20
+Year of Passing - 2017
+
+2) HSC
+School - Vidyadham Science Jr College, Sambhajinagar
+Board - Maharashtra Board
+Marks Obtained - 415
+Total Marks - 650
+Percentage - 63.85
+Year of Passing - 2019
+Stream - Science
+
+3) Under Graduation
+College - Genba Sopanrao Moze College of Engineering
+University - Savitribai Phule Pune University
+Specialization - Computer
+Total Backlogs -0
+No of attempts - 1
+Duration - 4yrs
+
+year  obt      total    percent      year sgpa
+Fe    896.     1300.     68.9%       7.64
+Se.   1222.   1400.      87.3.        9.48
+Te.    1198.    1400.     85.6.       9.31
+Be.     1033.    1400.     73.8.       8.31
+
+
+Aggregate - 78.9%
+
+
+Projects:
+1) DAC Project -- BlogHub
+We are creating a blogging website, which will allow users to create account, create and post blogs as well as build a community and the people in community will be able to make comments in the blog post. We will give the user a filter to search blogs as per his wish as he can manage the blogs which will be shown to him and the blogs will be shown to him in latest first.The user will be also getting a feature while ne wants to write or publish a blog as we will integrate chatgpt api, so that after passing a particular blog the user will get some key points which he can include in his blog and make it more interesting.
+
+
+2) Engineering Project--- Vehicle Detection using Deep Learning
+A deep learning project implemented on Google Colab using YOLOv8 in python to detect vehicles in the testing database. Used open-source database available on kaggle for this project, distributed the database in 70% for training and 30% for testing purpose. Were able to successfully detect vehicle with an accuract of 90%.Implemented this project  on Google colab because of hardware constraints. Our guide supported us throughout the project. We used a training dataset of 6 classes after that while testing all the 6 classes detection was found correct.
+
+
+Other Internships------
+1) 5 months internship as Software Engineer Trainee at Equations Work
+Worked on Various Projects, gaining knowledge of Large Language Models and different types of Artificial Intellegence Techniques.
+Worked on various projects where I implements knowledge of graphical database neo4j and also implements my knowledge about large language models. Got a stipend of 15000 per month, worked on powerBi, react, node, python, optical character recognition, pytesseract.
+
+2) 2 months internship as Softwae Tester at PartnerIt
+Learned Basics of Software Testing and Concepts of Selenium and worked on two Interesting Projects.Worked on two internal projects ITSM version 20.3 and TestIT. Got training on Core Java, Selenium, Software Testing, github.It was a non paid internship.
+
+
+Extra Curricular Activities-----
+1)Organized technical as well as cultural events in College in year 2022 and 2023
+2)Volunteered in Lokmat Maha marathon 2023 
+
+Hobbies-----playing cricket, travelling, trekking
