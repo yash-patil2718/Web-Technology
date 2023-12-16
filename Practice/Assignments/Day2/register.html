@@ -4,26 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <style>
+        fieldset{
+            width: fit-content;
+            background-color: antiquewhite;
+            border: 1px solid black;
+            border-radius: 12px;
+        }
+        h3{
+            background-color:antiquewhite;
+            font-size: medium;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 4px;
+            width: fit-content;
+            border-radius: 15px;
+        }
+        #fname,#lname{
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 4px;
+        }
+        #dob{
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 4px;
+        }
+        Address{
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 4px;
+            
+        }
+    </style>
 </head>
 <body>
+    <fieldset>
     <h3 align="center">Registration Page</h3>
     <br>
-    <label>Enter First Name</label>
+    <label><b>Enter First Name</b></label>
     <input type="text" id="fname"><br>
     <br>
-    <label>Enter Second Name</label>
+    <label><b>Enter Second Name</b></label>
     <input type="text" id="lname"><br>
     <br>
-    <label>Date of Birth</label>
+    <label><b>Date of Birth</b></label>
     <input type="date" id="dob"><br>
     <br>
-    <label>Address</label>
+    <label><b>Address</b></label>
     <!-- <input type="textarea" id="add" row="5" col="10"> -->
     <textarea id="add" rows="5" cols="30"></textarea>
     <br>
     <br>
-    <label>State</label>
-    <select>
+    <label><b>State</b></label>
+    <select id="state">
         <option>Select One State</option>
         <option>Maharashtra</option>
         <option>Madhya Pradesh</option>
@@ -32,7 +66,7 @@
     </select>
     <br>
     <br>
-    <label>Education</label>
+    <label><b>Education</b></label>
     <br>
     SSC<input type="checkbox" id="ch1">
     HSC<input type="checkbox" id="ch2">
@@ -40,6 +74,7 @@
     Post-Graduation<input type="checkbox" id="ch4">
     <br>
     <br>
-
+    <input type="button" value="submit" id="bt1">
+</fieldset>
 </body>
 </html>
