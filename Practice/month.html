@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function f1(){
+        let x = parseInt(document.getElementById("op").value)
+       
+        let result
+        
+        // switch(x)
+        //    { 
+        //      case 1 : console.log("giourt");result = "jan";break;
+        //      case 2 : result = "feb";break;
+        //      case 3 : result = "mar";break;
+        //      case 4 : result = "apr";break;
+        //      case 5 : result = "may";break;
+        //    }
+        //    console.log(result);
+        //    let ot = `<i> ${result} <i>`
+        //     document.getElementById("2").innerHTML = ot
+
+            const monthNames = ["January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"
+            ];
+            result=monthNames[x-1];
+
+            let ot = `<i> ${result} <i>`
+            document.getElementById("2").innerHTML = ot
+
+            
+        }
+        function f2(){
+            let y = parseInt(document.getElementById("op1").value)
+            let result1
+            const dayNames = ["Sunday","Monday","tue","wed","thurs","fri","sat"
+            ];
+            result1=dayNames[y-1];
+            
+            let ot1 = `<i> ${result1} <i>`
+            document.getElementById("3").innerHTML = ot1
+        }
+    </script>
+</head>
+<body>
+    Month Number : <select id="op" onchange="f1()">
+        <option>select</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+    </select>
+
+    <br>
+    <br>
+    <div style="color: rgb(14, 134, 165); background-color: black; width: fit-content; border: 50%; border-color: rgb(17, 238, 46); border-width: 4px; border-style: solid";>
+    Day Number : <select id="op1" onchange="f2()" style="background-color: black; color: rgb(211, 140, 33); margin: auto;font">
+        <option>select</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        </select>
+    </div>
+        <p>
+            Month is : 
+            <span id="2"></span>
+        </p>
+    <p>
+        Day is : 
+        <span id="3"></span>
+    </p>
+</body>
+</html>
