@@ -5,7 +5,7 @@ import React from 'react'
 // import Welcome from './welcome'
 // import Hello from './hello';
 // import ShowMonth from './showMonthName';
-import HalfString from './HalfString';
+// import HalfString from './HalfString';
 // import CaseChange from './casechange';
 
 
@@ -20,7 +20,7 @@ function App() {
   {/* <Myshuu num1={30} num2={2} op={"*"}></Myshuu> */}
   {/* <Myshuu abj={{num1:30, num2:2,op:'*'}}></Myshuu> */}
   {/* <ShowMonth></ShowMonth> */}
-  <HalfString></HalfString>
+  {/* <HalfString></HalfString> */}
   {/* <CaseChange></CaseChange> */}
   </>
   )
